@@ -47,6 +47,7 @@
 
     <@lib.response
         code = "403"
+        dto = "AuthorizationExceptionDto"
         desc = "Returned if the user is not allowed to throw a signal event.
 
                 See the [Introduction](${docsUrl}/reference/rest/overview/#error-handling) for the

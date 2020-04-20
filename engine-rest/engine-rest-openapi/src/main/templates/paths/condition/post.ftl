@@ -61,6 +61,7 @@
 
     <@lib.response
         code = "403"
+        dto = "AuthorizationExceptionDto"
         last = true
         desc = "If the user is not allowed to start the process instance of the process definition, which start condition was evaluated to `true`."/>
 
